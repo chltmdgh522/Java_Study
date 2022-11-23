@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b40ea5ba-b99c-44d3-ac0d-443d5e771bdf" name="Changes" comment="impormation">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/build/classes/javatest/Veriable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/build/classes/javatest/seunghojava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/build/classes/text/Text1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/build/classes/text/Text2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/seungho_java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/src/main/java/javatest/Veriable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/src/main/java/javatest/seunghojava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/src/main/java/text/Text1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/src/main/java/text/Text2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seungho_java/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+    <list default="true" id="b40ea5ba-b99c-44d3-ac0d-443d5e771bdf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669044982872</updated>
-      <workItem from="1669044984224" duration="1195000" />
+      <workItem from="1669044984224" duration="2523000" />
     </task>
     <task id="LOCAL-00001" summary="impormation">
       <created>1669045158779</created>
@@ -74,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669045158779</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Seung Ho Choi Project">
+      <created>1669129281389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669129281389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +66,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="impormation" />
-    <option name="LAST_COMMIT_MESSAGE" value="impormation" />
+    <MESSAGE value="Seung Ho Choi Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seung Ho Choi Project" />
   </component>
 </project>
