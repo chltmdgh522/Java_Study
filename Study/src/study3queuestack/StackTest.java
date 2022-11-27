@@ -1,4 +1,4 @@
-package study3QueueStack;
+package study3queuestack;
 
 import java.util.ArrayList;
 
