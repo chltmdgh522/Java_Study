@@ -4,22 +4,23 @@ import java.util.Comparator;
 import java.util.TreeSet;
 
 class MyCompare implements Comparator<String> {
-
     @Override
-    public int compare(String str1, String str2) {
-        return str1.compareTo(str2) * (-1);
+    public int compare(String o1, String o2) {
+        return o1.compareTo(o2) * (-1);
     }
 }
 
 public class ComparatorTest {
 
     public static void main(String[] args) {
-        TreeSet<String> a = new TreeSet<>(new MyCompare());
-        a.add("최");
-        a.add("승");
-        a.add("호");
-        System.out.println(a);
-
+        TreeSet<String> treeSet = new TreeSet<>(new MyCompare());
+        treeSet.add("최승호");
+        treeSet.add("김승호");
+        treeSet.add("박승호");
+        for (String a : treeSet) {
+            System.out.println(a);
+        }
+        System.out.println(treeSet);
 
     }
 }
