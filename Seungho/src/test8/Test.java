@@ -10,7 +10,6 @@ public class Test {
         h.enqueue("발해");
         h.enqueue("고려");
         h.enqueue("조선");
-
         System.out.println(h.list);
         h.dequeue();
         h.dequeue();
