@@ -1,24 +1,24 @@
 package test1;
 
 public class StudentSubjectScore {
-	String subject;
-	int score;
-	
-	public String getSubject() {
-		return subject;
-	}
+    String subject;
+    int score;
 
-	public void setSubject(String sub) {
-		subject = sub;
-	}
+    public String getSubject() {
+        return subject;
+    }
 
-	public int getScore() {
-		return score;
-	}
+    public void setSubject(String sub) {
+        subject = sub;
+    }
 
-	public void setScore(int score) {
-		this.score = score;
-	}
-	
-	
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+
 }
