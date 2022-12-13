@@ -11,14 +11,23 @@ public class ExceptionTest {
             fis = new FileInputStream("a.txt");
         } catch (FileNotFoundException e) {
             System.out.println(e);
+
         }finally{
             try {
                 fis.close();
             } catch (IOException e) {
                 e.printStackTrace();
+
             }
             System.out.println("finally");
         }
         System.out.println("end");
+
+        /*
+        try(FileNotFoundException fis =new FileNotFoundException("a.txt")){
+        }catch(IOException e){
+            System.out.println(e);
+        }
+        System.out.println("end");*/
     }
 }
