@@ -16,26 +16,18 @@ public class MemberHashSet {
 	public boolean removeHashSet(int memberId) {
 		
 		Iterator<Member> iterator=hashSet.iterator();
-		while(iterator.hasNext()) {
-			Member member=iterator.next();
+		while(iteratsor.hasNext()) {
+			Memb member=iterator.next();
 			if(memberId==member.getMemberId()) {
 				iterator.remove();
 				return true;
 			}
-		
 		}
-	
 		System.out.println(memberId+"가 없습니다.");
 		return false;
-		
 	}
-	
 	public void show() {
 		for(Member member : hashSet)
 		System.out.println(member);
 	}
-	
-
-
-
 }

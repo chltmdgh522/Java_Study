@@ -3,7 +3,6 @@ package collection.treeset;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-
 class MyCompare implements Comparator<String>{
 
 	@Override

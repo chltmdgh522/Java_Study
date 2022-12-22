@@ -5,16 +5,19 @@ public class TestMyNumber {
 
         MyNumber maxNum = (x, y) -> (x >= y) ? x : y;
         int max=maxNum.getMaxNumber(10,5);
+
         System.out.println(max);
         int i=100;
 
-        MyNumber aaa = new MyNumber() {
+
+        MyNumber a1 = new MyNumber() {
             @Override
             public int getMaxNumber(int num1, int num2) {
 
                 return 0;
             }
         };
+        a1.getMaxNumber(1,2);
     }
 
 }
