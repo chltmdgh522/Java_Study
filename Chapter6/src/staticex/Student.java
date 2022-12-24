@@ -1,17 +1,17 @@
 package staticex;
 
 public class Student {
-	
-	static int seriaNum=10000;
-	
 
-	int studentID;
-	String studentName;
+    static int seriaNum = 10000;
 
-	public Student() {
-		seriaNum++;
-		studentID=seriaNum;		
-	}
+
+    int studentID;
+    String studentName;
+
+    public Student() {
+        seriaNum++;
+        studentID = seriaNum;
+    }
 
 	/*public static int getSeriaNum() {
 		return seriaNum; // static변수
