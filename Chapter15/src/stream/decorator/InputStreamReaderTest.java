@@ -19,7 +19,8 @@ public class InputStreamReaderTest {
         }
         Socket socket=new Socket();
         try(InputStreamReader ir= new InputStreamReader (socket.getInputStream())){//바이트로 받은걸 문자로변환
-
+//BufferedReader br=new BufferedReader(new InputStreamReader (socket.getInputStream()))
+            //br.readLine(); - 한줄 읽어주는거 개빨름
         }catch(IOException e){
             System.out.println(e);
 
