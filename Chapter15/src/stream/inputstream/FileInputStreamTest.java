@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class FileInputStreamTest {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args)  {
 
         FileInputStream fis = null;
         int i=0;
