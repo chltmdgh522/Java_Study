@@ -3,7 +3,7 @@ package question;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class HashMapQ1 {
+public class Q1HashMap {
     public static void main(String[] args) {
         HashMap<String, Integer> hashMap = new HashMap<>();
         hashMap.put("최승호", 1);
