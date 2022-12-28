@@ -7,8 +7,7 @@ import java.util.TreeSet;
 
 
 public class MemberTreeSet {
-    TreeSet<Member> treeSet = new TreeSet<Member>(new Member());
-
+    TreeSet<Member> treeSet = new TreeSet<Member>();
     public void addTreeSet(Member member) {
         treeSet.add(member);
     }

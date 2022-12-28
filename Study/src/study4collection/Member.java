@@ -2,7 +2,7 @@ package study4collection;
 
 import java.util.Comparator;
 
-public class Member implements Comparable<Member>, Comparator<Member> {
+public class Member implements Comparable<Member>, Comparator<Integer> {
     String name;
     int id;
 
@@ -40,12 +40,11 @@ public class Member implements Comparable<Member>, Comparator<Member> {
         return id;
     }
 
-
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof Member) {
             Member member = (Member) obj;
-            if (this.name == member.name) {
+            if (this.id == member.id) {
                 return true;
             } else return false;
         }
@@ -58,8 +57,13 @@ public class Member implements Comparable<Member>, Comparator<Member> {
         return this.id - o1.id;
     }
 
-    @Override
+    /*@Override
     public int compare(Member o1, Member o2) {
         return o1.compareTo(o2) * (-1);
+    }*/
+
+    @Override
+    public int compare(Integer o1, Integer o2) {
+        return o1.compareTo(o2)*(-1);
     }
 }

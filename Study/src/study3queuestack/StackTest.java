@@ -33,7 +33,5 @@ public class StackTest {
         myStack.push("c");
         myStack.peek();
         myStack.pop();
-
-
     }
 }

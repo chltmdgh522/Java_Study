@@ -25,8 +25,9 @@ public class LambdaTest {
         a4.show("정");
     }
 
-    public static void new1(PrintString a1) {
-        a1.show("김");
+
+    public static void new1(PrintString a4) {
+        a4.show("김");
     }
 
     public static PrintString a3() {
