@@ -12,7 +12,7 @@ public class FileOutPutStreamTest {
             bs[i]=data++;
         }
         try(FileOutputStream fos= new FileOutputStream("output.txt",true)){ // true는 계속 이어주는거
-            fos.write(bs);
+            fos.write(bs,2,10);
         }catch(IOException e){
             System.out.println(e);
         }
