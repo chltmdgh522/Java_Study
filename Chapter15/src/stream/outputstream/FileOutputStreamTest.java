@@ -11,6 +11,7 @@ public class FileOutputStreamTest {
             bs[i] = data++;
         }
 
+
         try (FileOutputStream fos = new FileOutputStream("output.txt", true)) {//이어서 쓰겠다, end
             fos.write(bs); //fos.write(bs,2,10); 원하는 문자선정
         } catch (IOException e) {
