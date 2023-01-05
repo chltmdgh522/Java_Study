@@ -12,11 +12,11 @@ public class Subject {
         this.subjectName = subjectName;
     }
 
-    public int getScore(){
+    public int getScore() {
         return score;
     }
 
-    public void setScore(int score){
-        this.score=score;
+    public void setScore(int score) {
+        this.score = score;
     }
 }
