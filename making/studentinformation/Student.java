@@ -1,18 +1,18 @@
 package making.studentinformation;
 
+import java.util.HashMap;
+
 public class Student {
     String name;
     int id;
-    Subject korea,math,english;
+    Subject korea, math, english;
 
-
-
-    public Student(String name, int id){
-        this.name=name;
-        this.id=id;
-        korea=new Subject();
-        math=new Subject();
-        english=new Subject();//student 클래스 타입이 아니니깐 연관시켜줄려면 생성자 생성
+    public Student(String name, int id) {
+        this.name = name;
+        this.id = id;
+        korea = new Subject();
+        math = new Subject();
+        english = new Subject();//student 클래스 타입이 아니니깐 연관시켜줄려면 생성자 생성
 
     }
 
@@ -25,19 +25,28 @@ public class Student {
         math.setSubjectName(subjectName);
         math.setScore(score);
     }
+
     public void setEnglish(String subjectName, int score) {
         english.setSubjectName(subjectName);
         english.setScore(score);
     }
 
-    public void show(){
-        int total=(korea.getScore()+math.getScore()+ english.getScore())/3;
+    int a = 0;
+    HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
 
-        System.out.println(id+" "+name+"는(은)"+total+"입니다.");
+    public void show() {
+
+        int total = (korea.getScore() + math.getScore() + english.getScore()) / 3;
+
+        if (total > a) {
+            System.out.println(id + " " + name + "는(은)" + total + "입니다.");
+        }
+        else if(a>total){
+            a=total;
+        }
+
+
     }
-
-
-
 
 
     public String getName() {
