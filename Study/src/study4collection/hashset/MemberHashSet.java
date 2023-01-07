@@ -20,16 +20,33 @@ public class MemberHashSet {
             if (id == member.getId()) {
                 ir.remove();
             }
+            return true;
+
         }
         return false;
     }
 
-    public void show() {
-        for (Member m : hashSet) {
-            System.out.println(m);
+    /*public void removeHashSet(Member member){
+        hashSet.remove(member);
+    }*/
+    public void show(){
+        for(Member m:hashSet){
+            System.out.println("d"+m);
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
   /*  HashSet<Member> hashSet=new HashSet<>();
 
     public void addHashSet(Member member){
