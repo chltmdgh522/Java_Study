@@ -6,10 +6,9 @@ import java.util.function.BinaryOperator;
 class CompareString implements BinaryOperator<String> {
     @Override
     public String apply(String s, String s2) {
-    if(s.getBytes().length>=s2.getBytes().length){
-        return s2;
-    }
-    else return s;
+        if (s.getBytes().length >= s2.getBytes().length) {
+            return s2;
+        } else return s;
     }
 
 }
