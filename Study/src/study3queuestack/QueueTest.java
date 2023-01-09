@@ -10,10 +10,9 @@ class MyQueue {
     }
 
     public void deQue() {
-        if (list.size()==0){
+        if (list.size() == 0) {
             System.out.println("없다");
-        }
-        else System.out.println(list.remove(0));
+        } else System.out.println(list.remove(0));
 
 
     }
