@@ -15,7 +15,7 @@ public class TreeMapTest {
         memberTreeMap.addTreeMap(m3);
         memberTreeMap.show();
 
-        memberTreeMap.removeTreeMap(1);
+        memberTreeMap.removeTreeMap(m1.getId());
         memberTreeMap.show();
 
     }

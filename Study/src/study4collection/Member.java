@@ -10,7 +10,6 @@ public class Member implements Comparable<Member>, Comparator<Integer> {
         this.id = id;
         this.name = name;
     }
-
     public Member() {
 
     }
@@ -64,6 +63,6 @@ public class Member implements Comparable<Member>, Comparator<Integer> {
 
     @Override
     public int compare(Integer o1, Integer o2) {
-        return o1.compareTo(o2)*(-1);
+        return o1.compareTo(o2) * (-1);
     }
 }

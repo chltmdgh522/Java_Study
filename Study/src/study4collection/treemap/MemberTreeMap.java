@@ -23,8 +23,12 @@ public class MemberTreeMap {
             }
         }
         return false;
-
     }
+    /*public void removeTreeMap(int id) {
+        if (treeMap.containsKey(id)) {
+            treeMap.remove(id);
+        }
+    }*/
 
     public void show(){
         Iterator<Integer> ir=treeMap.keySet().iterator();
