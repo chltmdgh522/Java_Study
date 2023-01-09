@@ -7,29 +7,27 @@ import java.util.Iterator;
 
 public class MemberHashMap {
 
-    HashMap<Integer, Member> hashMap = new HashMap<Integer, Member>();
+    HashMap<Integer, Member> hashMap = new HashMap<>();
 
-    public void addHashMap(Member member) {
-        hashMap.put(member.getId(), member);
+    public void addHashMap(Member member){
+        hashMap.put(member.getId(),member);
     }
 
-    public boolean removeHashMap(int id) {
-        if (hashMap.containsKey(id)) {
+    public boolean removeHashMap(int id){
+        if(hashMap.containsKey(id)){
             hashMap.remove(id);
-            return true;
         }
-        return false;
+        return true;
     }
-    public void show() {
-        System.out.println(hashMap);
-        Iterator<Integer> ir = hashMap.keySet().iterator();
 
-        while (ir.hasNext()) {
-            int key = ir.next();
-            Member member = hashMap.get(key);
-            System.out.println(member);
-            System.out.println(key);
+    public void show(){
+        Iterator<Integer> ir=hashMap.keySet().iterator();
+        while(ir.hasNext()){
+            int key=ir.next();
+            Member m=hashMap.get(key);
+            System.out.println(m);
         }
     }
+
 
 }

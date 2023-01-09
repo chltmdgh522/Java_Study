@@ -16,6 +16,9 @@ public class HashMapTest {
         memberHashMap.addHashMap(m3);
         memberHashMap.addHashMap(m4);
 
+        memberHashMap.removeHashMap(m1.getId());
+
+
         memberHashMap.show();
 
     }
