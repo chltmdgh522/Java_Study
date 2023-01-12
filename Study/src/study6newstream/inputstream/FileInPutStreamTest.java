@@ -6,21 +6,21 @@ import java.io.IOException;
 public class FileInPutStreamTest {
     public static void main(String[] args) {
 
-        FileInputStream fis=null;
-        int i=0;
-        try{
-            fis=new FileInputStream("input.txt");
-            while((i=fis.read())!=-1){
-                System.out.print((char)i);
+        FileInputStream fis = null;
+        int i = 0;
+        try {
+            fis = new FileInputStream("input.txt");
+            while ((i = fis.read()) != -1) {
+                System.out.print((char) i);
             }
-        }catch(IOException e){
+        } catch (IOException e) {
             System.out.println(e);
-        }finally {
-            try{
+        } finally {
+            try {
                 fis.close();
-            }catch(IOException e){
+            } catch (IOException e) {
                 System.out.println(e);
-            }catch(NullPointerException e){
+            } catch (NullPointerException e) {
                 System.out.println(e);
             }
         }

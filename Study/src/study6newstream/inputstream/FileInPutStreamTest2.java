@@ -7,7 +7,7 @@ public class FileInPutStreamTest2 {
     public static void main(String[] args) {
         try (FileInputStream fis = new FileInputStream("input.txt")) {
             byte[] bs = new byte[10];
-            int i=0;
+            int i = 0;
             while ((i = fis.read(bs)) != -1) {
                 for (int j = 0; j < i; j++) {
                     System.out.print((char) bs[j]);
