@@ -1,7 +1,7 @@
 package inherbit;
 
-public interface MyInterface extends X,Y {
-	
-	void myMethod();
+public interface MyInterface extends X, Y {
+
+    void myMethod();
 
 }
