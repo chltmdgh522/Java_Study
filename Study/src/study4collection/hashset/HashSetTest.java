@@ -7,7 +7,7 @@ public class HashSetTest {
 
         MemberHashSet memberHashSet=new MemberHashSet();
         Member m1=new Member(1,"최승호");
-        Member m2=new Member(2,"홍세현");
+        Member m2=new Member(4 ,"홍세현");
         Member m3=new Member(3,"칠라디");
         memberHashSet.addHashSet(m1);
         memberHashSet.addHashSet(m2);
