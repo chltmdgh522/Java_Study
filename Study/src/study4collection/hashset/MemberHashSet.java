@@ -29,9 +29,9 @@ public class MemberHashSet {
     /*public void removeHashSet(Member member){
         hashSet.remove(member);
     }*/
-    public void show(){
-        for(Member m:hashSet){
-            System.out.println("d"+m);
+    public void show() {
+        for (Member m : hashSet) {
+            System.out.println("d" + m);
         }
     }
 }
