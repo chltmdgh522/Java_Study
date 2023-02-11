@@ -4,6 +4,7 @@ import study4collection.Member;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Set;
 
 public class MemberHashMap {
 
@@ -21,6 +22,10 @@ public class MemberHashMap {
     }
 
     public void show(){
+        for(Integer key: hashMap.keySet()){
+            System.out.println(key+":"+hashMap.get(key));
+        }
+
         Iterator<Integer> ir=hashMap.keySet().iterator();
         while(ir.hasNext()){
             int key=ir.next();
