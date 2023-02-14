@@ -18,10 +18,7 @@ public class HashMapTest {
 
         memberHashMap.removeHashMap(m1.getId());
 
-
         memberHashMap.show();
 
     }
-
-
 }
