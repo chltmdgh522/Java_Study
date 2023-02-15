@@ -14,6 +14,7 @@ public class AICar extends Car {
         System.out.println("자동차가 비를 인지하고 와이퍼를 킵니다.");
 
     }
+
     @Override
     public void washCar() {
         System.out.println("자동차가 스스로 샤워합니다.");
