@@ -16,7 +16,6 @@ public abstract class Car {
 
         System.out.println("시동을 킵니다.");
     }
-
     public void startCarOff() {
 
         System.out.println("시동을 껍니다.");
