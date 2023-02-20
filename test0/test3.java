@@ -16,6 +16,11 @@ public class test3 {
         for(Map.Entry<String,Integer> entrySet: hashMap.entrySet()){
             System.out.println(entrySet.getKey());
         }
+        test4 t4=new test4();
+
+        System.out.println(t4);
+
+
 
         /*
         결과값:
