@@ -10,7 +10,6 @@ public class MemberHashSet {
 	
 	public void addHashSet(Member member) {
 		hashSet.add(member);
-		
 	}
 	
 	public boolean removeHashSet(int memberId) {
