@@ -29,7 +29,7 @@ public class MemberHashMap {
 	public void show() {
 		Iterator<Integer> ir=hashMap.keySet().iterator();
 		
-		System.out.println(hashMap.keySet());
+		System.out.println(hashMap.kes());
 		
 		while(ir.hasNext()) {
 			int key=ir.next();
