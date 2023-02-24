@@ -16,7 +16,6 @@ class CompareString implements BinaryOperator<String> {
 public class ReduceTest {
     public static void main(String[] args) {
 
-
         String[] names = {"고려", "대한민국", "고구려"};
         //1
         Arrays.stream(names).sorted().forEach(s -> System.out.print(s));
