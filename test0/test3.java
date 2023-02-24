@@ -21,7 +21,6 @@ public class test3 {
         System.out.println(t4);
 
 
-
         /*
         결과값:
         1:2
