@@ -5,7 +5,7 @@ import study7member.member.Member;
 import study7member.member.MemberService;
 import study7member.member.MemberServiceImpl;
 
-public class Test {
+public class MemberAPP {
     public static void main(String[] args) {
         Member m1= new Member(1L,"승호", Grade.VIP);
         MemberService ms=new MemberServiceImpl();
