@@ -12,11 +12,11 @@ public class Test {
         list.add(customer2);
         list.add(customer1);
 
-        int price=10000;
-        for(Customer customer:list){
+        int price = 10000;
+        for (Customer customer : list) {
             System.out.println(customer.calcPrice(price));
         }
-        for(Customer customer:list){
+        for (Customer customer : list) {
             System.out.println(customer.show());
         }
 
