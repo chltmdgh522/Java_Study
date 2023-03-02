@@ -7,7 +7,7 @@ import study7member.member.MemberServiceImpl;
 
 public class MemberAPP {
     public static void main(String[] args) {
-        Member m1= new Member(1L,"승호", Grade.VIP);
+        Member m1= new Member(1L,"최승호", Grade.VIP);
         MemberService ms=new MemberServiceImpl();
         ms.join(m1);
         Member fm=ms.findMember(1L);

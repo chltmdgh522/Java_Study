@@ -5,13 +5,13 @@ import study7member.member.Member;
 
 public class FixDiscountPolicy implements DiscountPolicy {
 
-    int fixDiscountPrice=1000;
+    int fixDiscountPrice = 1000;
 
     @Override
     public int discount(Member member, int price) {
-        if(member.getGrade()== Grade.VIP){
+        if (member.getGrade() == Grade.VIP) {
             return fixDiscountPrice;
-        }else{
+        } else {
             return 0;
         }
     }
