@@ -2,28 +2,29 @@ package study7member.order;
 
 public class Order {
 
-    Long memberId;
+    Long id;
     String itemName;
     int itemPrice;
     int discountPrice;
 
-    public Order(Long memberId, String itemName, int itemPrice, int discountPrice){
-        this.memberId=memberId;
-        this.itemName=itemName;
-        this.itemPrice=itemPrice;
-        this.discountPrice=discountPrice;
+    public Order(Long id, String itemName, int itemPrice, int discountPrice) {
+        this.id = id;
+        this.itemName = itemName;
+        this.itemPrice = itemPrice;
+        this.discountPrice = discountPrice;
     }
 
     public int calculatePrice(){
-        return itemPrice-discountPrice;
+        return itemPrice - discountPrice;
     }
 
-    public Long getMemberId() {
-        return memberId;
+
+    public Long getId() {
+        return id;
     }
 
-    public void setMemberId(Long memberId) {
-        this.memberId = memberId;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getItemName() {
@@ -53,7 +54,7 @@ public class Order {
     @Override
     public String toString() {
         return "Order{" +
-                "memberId=" + memberId +
+                "id=" + id +
                 ", itemName='" + itemName + '\'' +
                 ", itemPrice=" + itemPrice +
                 ", discountPrice=" + discountPrice +
