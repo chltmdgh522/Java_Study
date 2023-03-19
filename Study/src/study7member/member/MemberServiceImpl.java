@@ -2,8 +2,7 @@ package study7member.member;
 
 public class MemberServiceImpl implements MemberService {
 
-    MemoryMemberRepository memberRepository= new MemoryMemberRepository();
-
+    MemberRepository memberRepository=new MemoryMemberRepository();
 
     @Override
     public void join(Member member) {

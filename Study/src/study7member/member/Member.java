@@ -1,9 +1,10 @@
 package study7member.member;
 
 public class Member {
-    Long id;
-    String name;
-    Grade grade;
+
+    private Long id;
+    private String name;
+    private Grade grade;
 
     public Member(Long id, String name, Grade grade) {
         this.id = id;
@@ -34,4 +35,5 @@ public class Member {
     public void setGrade(Grade grade) {
         this.grade = grade;
     }
+
 }

@@ -7,12 +7,14 @@ import study7member.member.MemberServiceImpl;
 
 public class MemberAPP {
     public static void main(String[] args) {
-        Member m1= new Member(1L,"최승호", Grade.VIP);
-        MemberService ms=new MemberServiceImpl();
-        ms.join(m1);
-        Member fm=ms.findMember(1L);
+        Member member=new Member(1L,"최승호", Grade.VIP);
+        MemberService memberService=new MemberServiceImpl();
+        memberService.join(member);
+        Member find=memberService.findMember(1L);
+        System.out.println(find.getName());
+        System.out.println(member.getName());
 
-        System.out.println(fm.getName());
+
 
     }
 

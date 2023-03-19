@@ -4,15 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MemoryMemberRepository implements MemberRepository {
-    Map<Long, Member> hashMap=new HashMap<>();
+
+    Map<Long, Member> store = new HashMap<>();
 
     @Override
     public void save(Member member) {
-        hashMap.put(member.getId(), member);
+        store.put(member.getId(), member);
     }
 
     @Override
     public Member findById(Long id) {
-        return hashMap.get(id);
+        return store.get(id);
     }
 }
