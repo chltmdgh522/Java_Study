@@ -12,7 +12,7 @@ public class MemoryMemberRepository implements MemberRepository {
     }
 
     @Override
-    public Member findByMember(Long id) {
+    public Member findById(Long id) {
         return hashMap.get(id);
     }
 }

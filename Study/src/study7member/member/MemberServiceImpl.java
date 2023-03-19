@@ -2,16 +2,16 @@ package study7member.member;
 
 public class MemberServiceImpl implements MemberService {
 
-    MemoryMemberRepository a= new MemoryMemberRepository();
+    MemoryMemberRepository memberRepository= new MemoryMemberRepository();
 
 
     @Override
     public void join(Member member) {
-        a.save(member);
+        memberRepository.save(member);
     }
 
     @Override
     public Member findMember(Long id) {
-        return a.findByMember(id);
+        return memberRepository.findById(id);
     }
 }
