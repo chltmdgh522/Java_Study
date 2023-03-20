@@ -11,19 +11,19 @@ import study7member.order.OrderServiceImpl;
 
 public class AppConfig {
 
-    public MemberService memberService(){
+    public MemberService memberService() {
         return new MemberServiceImpl(memberRepository());
     }
 
-    public MemberRepository memberRepository(){
+    public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
 
-    public OrderService orderService(){
-        return new OrderServiceImpl(memberRepository(),discountPolicy());
+    public OrderService orderService() {
+        return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
 
-    public DiscountPolicy discountPolicy(){
+    public DiscountPolicy discountPolicy() {
         return new FixDiscountPolicy();
         //new RateDiscountPolicy();
     }
