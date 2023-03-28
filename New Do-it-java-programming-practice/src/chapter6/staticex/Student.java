@@ -1,0 +1,13 @@
+package chapter6.staticex;
+
+public class Student {
+
+    static int serialNum=1;
+    int studentId;
+    String studentName;
+
+    public Student(){
+        studentId+=serialNum++;
+
+    }
+}
