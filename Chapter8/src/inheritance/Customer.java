@@ -8,8 +8,6 @@ public class Customer {
     int bonusPoint;
     double bonusRatio;
 	
-
-	
 	/*public Customer() //처음에 고객이 생성이 되면 아래와 같이 지정함. 
 	{
 		//super(); 이 친구는 object클래스로 감 
