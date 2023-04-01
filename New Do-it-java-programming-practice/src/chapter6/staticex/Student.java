@@ -7,7 +7,8 @@ public class Student {
     String studentName;
 
     public Student(){
-        studentId+=serialNum++;
+        serialNum++;
+        studentId=serialNum;
 
     }
 }
